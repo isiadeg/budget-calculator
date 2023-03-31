@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Calculator</title>
+    <link rel="stylesheet" href="budget.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">
+            Budget Calculator
+        </h1>
+        <div class="instruction">
+            Please, fill in the fields below to generate your budget
+        </div>
+        <div class="form-field">
+            <label for="income" > Your Monthly Income</label>
+            <div class="input-group">
+                <div class="input-text">&#8358;</div>
+                <input type="number"  id="income" name="income">
+                <div class="placeholder">Your Monthly Income</div>
+            </div>
+            <div class="error-hint" id="income-hint">
+
+            </div>
+        </div>
+        <div class="form-field">
+            <label for="age" > Your Age</label>
+            <div class="input-group">
+                <div class="input-text">A</div>
+                <input type="number"  id="age" name="age">
+                <div class="placeholder">Your Age</div>
+            </div>
+            <div class="error-hint" id="age-hint">
+
+            </div>
+            
+        </div>
+
+        <div class="form-field">
+            <label for="gender" > Your Gender</label>
+            <div class="input-group">
+                <div class="input-text">&ordm; &ordf;</div>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="error-hint" id="gender-hint">
+
+            </div>
+            
+        </div>
+
+        <div class="form-field">
+            <label for="dependents" > Number of Dependents </label>
+            <div class="input-group">
+                <div class="input-text">D</div>
+                <input type="number"  id="dependents" name="dependents">
+                <div class="placeholder">Dependents</div>
+            </div>
+            <div class="error-hint" id="dependents-hint">
+
+            </div>
+
+
+            
+        </div>
+
+
+        <button id="submit"> Submit </button>
+    </div>
+
+    <div class="wrapper table-wrapper" >
+        <div class="title">
+
+        </div>
+        <hr>
+        <table>
+            <thead>
+                <th>Budget Categories</th>
+                <th>Percentages</th>
+                <th>Amount in Naira</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+<script src="budget-calc.js"></script>
+<script src="budget.js"></script>
+
+</body>
+</html>
