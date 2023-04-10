@@ -1,0 +1,105 @@
+#content.site-main.post-226.page.type-page.status-publish.hentry{
+	margin-top: 125px;
+	background-image: url('https://client.tamenonlineservices.com/wp-content/uploads/2023/04/How-Productive-Are-You-Featured-Image-VocePower-Ltd_7853f2c36849da3a567affd99f905b2b-1.webp');
+	background-size:cover;
+	min-height: calc(100vh - 10vh);
+	
+}
+.mp_wrapper form input[type="submit"]#wp-submit{
+	padding: 0.4rem 2rem;
+    /* width: 100%; */
+    background-color: #f15a24;
+    /* font-size: 1em; */
+    border-radius: 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+mepr-login-actions a{
+	font-size:14px;
+}
+.mp_wrapper form input[type="submit"]#wp-submit:hover{
+background-color: white;
+    color: #f15a24;
+    border: 1px solid #f15a24;
+    transition: 0.3s;
+}
+#content.site-main.post-226.page.type-page.status-publish.hentry::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 125px;
+    opacity: 0.2;
+}
+.mepr-login-form-wrap{
+	width: 90vw;
+    border-radius: 0px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 60px 40px 35px;
+    background-color: white;
+    box-shadow: 0px 0px 13px 0px rgb(0,0,0,0.8);
+	position:relative;
+	/* 241 90 36 */
+}
+.mepr-login-form-wrap::after {
+    text-align: center;
+    content: "Login";
+    color: #f15a24;
+    position: absolute;
+    top: 17px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    /* left: 150px; */
+    left: 0px;
+    width: 100%;
+    /* font-family: "Montserrat"; */
+}
+.mp_wrapper form {
+    text-align: left;
+    position: relative;
+    padding-top: 35px;
+}
+form#mepr_loginform:before {
+    content: "Please login to gain access to the client portal";
+    display: block;
+    position: absolute;
+    display: block;
+    top: -12px;
+    font-size: 14px;
+    text-align: center;
+    color: #bbb;
+	line-height: 20px;}
+
+.mp_wrapper .mp-form-row {
+    margin-bottom: 10px;
+    margin-bottom: 18px;
+    width: 100% !important;
+}
+.mp_wrapper .mp-form-row .mp-form-label label {
+    display: block !important;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-family: inherit;
+}
+.mp-form-label input#user_pass, .mp-form-row input#user_login {
+    padding: 10px;
+}
+.mp_wrapper form .elementor-kit-25 input:not([type="button"]):not([type="submit"]), .elementor-kit-25 textarea, .elementor-kit-25 label{
+	font-family: inherit;
+	font-size: 14px;
+}
+.mepr-login-actions a{
+	font-size: 14px;
+}
+@media only screen and (min-width:400px){
+	.mepr-login-form-wrap{
+		width: 350px;}
+}
+
+@media only screen and (min-width:768px){
+.mepr-login-form-wrap{
+	margin-left: 78px;
+	}
+}
